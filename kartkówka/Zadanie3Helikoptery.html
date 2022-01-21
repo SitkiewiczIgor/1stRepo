@@ -1,0 +1,22 @@
+<html> 
+    
+    <script type="text/javascript">
+    
+        function Helikopter(rok, masa, typ, uzbrojenie, maskowanieIcamo){
+            this.rok=rok;
+            this.masa=masa;
+            this.typ=typ;
+            this.uzbrojenie=uzbrojenie;
+            this.maskowanieIcamo=maskowanieIcamo;
+        }
+
+        Putas = new Helikopter ("2212 rok", "2 tony", "Bezzałogowy", "brak to śmigłowiec meteroologiczny", "Niebieska blacha");
+        AgustaWestlandAW101 = new Helikopter ("1997 rok", "10,5ton", "Transportowy/Morski", "brak", "Morskie");
+        Ka52Alligator = new Helikopter ("2008 rok", "7-11ton", "Ciężki śmigłowiec Bojowy", "działko kal. 30 mm Szipunow 2A42", "Ruska Pantera");
+        
+        document.write("Informacje o Putas"+"<br>"+Putas.rok+"<br>"+Putas.masa+"<br>"+Putas.typ+"<br>"+Putas.uzbrojenie+"<br>"+Putas.maskowanieIcamo+"<br>"+"<br>"
+        +"Informacje o AgustaWestland AW101"+"<br>"+AgustaWestlandAW101.rok+"<br>"+AgustaWestlandAW101.masa+"<br>"+AgustaWestlandAW101.typ+"<br>"+AgustaWestlandAW101.uzbrojenie+"<br>"+AgustaWestlandAW101.maskowanieIcamo+"<br>"+"<br>"
+        +"Ingormacje o Ka52Alligator"+"<br>"+Ka52Alligator.rok+"<br>"+Ka52Alligator.masa+"<br>"+Ka52Alligator.typ+"<br>"+Ka52Alligator.uzbrojenie+"<br>"+Ka52Alligator.maskowanieIcamo+"<br>"+"<br>");
+    </script>
+    
+</html>
